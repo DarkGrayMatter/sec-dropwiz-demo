@@ -1,0 +1,4 @@
+logging:
+  level: INFO
+  loggers:
+    graymatter.sample.sec-dropwizard: DEBUG
