@@ -1,0 +1,13 @@
+logging:
+  level: INFO
+  loggers:
+    graymatter.sample.secdropwizard: DEBUG
+
+template: "Hello, %s!"
+default_name: "Stranger!"
+
+database:
+  driverClass: org.postgresql.Driver
+  user: sa
+  password: sa
+  url: jdbc:postgtesql://localhost/db-sec-example
